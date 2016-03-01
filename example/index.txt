@@ -1,0 +1,19 @@
+index
+
+@@include('a/a1.txt')
+
+@@name
+
+@@if (context.name === 'example') {
+  @@include('conditional.txt', {
+  	"param": "success",
+  	"obj": {
+  		"obj_param": "flatten param"
+  	}
+  })
+  @@include('conditional.txt', {
+  	"param": "success too"
+  })
+
+  Defined in include @@param
+}
