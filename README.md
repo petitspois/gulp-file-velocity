@@ -5,12 +5,12 @@
 [![Dependency status][david-img]][david-url]
 [![Gitter][gitter-img]][gitter-url]
 
-### gulp-file-include
+### gulp-velocity
 a plugin of gulp for file include
 
 ### install
 ```bash
-npm install gulp-file-include
+npm install gulp-velocity
 ```
 
 ### options
@@ -18,7 +18,7 @@ npm install gulp-file-include
 * options - type: `string`, just as prefix, default `@@`, and basepath is default `@file`
 
 ```js
-fileinclude('@@')
+fileinclude('#')
 ```
 
 * options - type: `object`
