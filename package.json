@@ -1,5 +1,5 @@
 {
-  "name": "gulp-velocity",
+  "name": "gulp-file-velocity",
   "version": "0.0.1",
   "description": "a gulp plugin for file include",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
     "test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- -R dot -t 200 test/*.js",
     "jscs": "jscs lib && jscs test"
   },
-  "repository": "coderhaoxin/gulp-file-include",
+  "repository": "petitspois/gulp-velocity",
   "keywords": [
     "gulpplugin",
     "file",
@@ -21,10 +21,7 @@
   "files": [
     "lib"
   ],
-  "author": "haoxin",
-  "contributors": [
-    "Bogdan Chadkin <trysound@yandex.ru>"
-  ],
+  "author": "damon",
   "license": "MIT",
   "devDependencies": {
     "gulp": "3",
